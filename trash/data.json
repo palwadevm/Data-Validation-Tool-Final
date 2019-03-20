@@ -1,0 +1,42 @@
+{
+  "MATCHED": [
+    {
+      "key": "Scott",
+      "sourcerecord": [
+      ],
+      "destinationrecord": [
+      ],
+      "mismatchFields": ""
+    },
+    {
+      "name": "Larry",
+      "website": "google.com",
+      "from": "Michigan"
+    },
+    {
+      "name": "Tim",
+      "website": "apple.com",
+      "from": "Alabama"
+    }
+  ],
+  "MATCHED": [
+    {
+      "key": "Scott",
+      "sourcerecord": [
+      ],
+      "destinationrecord": [
+      ],
+      "mismatchFields": ""
+    },
+    {
+      "name": "Larry",
+      "website": "google.com",
+      "from": "Michigan"
+    },
+    {
+      "name": "Tim",
+      "website": "apple.com",
+      "from": "Alabama"
+    }
+  ]
+}
