@@ -1,0 +1,6 @@
+PyQt5
+PyOdbc
+cx-Oracle
+PyHive
+wheel
+thrift
