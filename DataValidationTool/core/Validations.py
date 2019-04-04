@@ -170,14 +170,16 @@ def validateBackend():
             for execThread in activeThreadsList:
                 execThread.join()
                 activeThreadsList.remove(execThread)
+            print("Completed Data Validations...")
 
             # Create Reports Folder
             reportsFolder = str(config.getPropertyValue("execution", "resultsFolder")) + str(section) + "/"
+            print("Generating Reports : " + reportsFolder)
             os.makedirs(reportsFolder)
-            endTimer = time.time()
             matchCount = tree.getRecordsWithState(set([Match_Status.MATCHED]), reportsFolder)
             fieldMismatchCount = tree.getRecordsWithState(set([Match_Status.FIELDS_MISMATCH]), reportsFolder)
             mismatchCount = tree.getRecordsWithState(set([Match_Status.MISSING_DATA]), reportsFolder)
+            endTimer = time.time()
             execTime = "{0:.2f}".format(endTimer - startTimer)
             print("#######################################################################################################################")
             print("Summary for " + str(section))
@@ -269,15 +271,16 @@ def validateUI(windowShown: QtWidgets.QWidget):
                 # activeThreadsList.remove(execThread)
 
             print("#######################################################################################################################")
+            print("Completed Data Validations...")
             # Create Reports Folder
-
             reportsFolder = reportsBaseFolder + "/" + str(section) + "/"
+            print("Generating Reports : " + reportsFolder)
             os.makedirs(reportsFolder)
             lblTotalValidatedCount: QtWidgets.QLabel = windowShown.findChild(QtWidgets.QLabel, "lblTotalValidatedCount")
-            endTimer = time.time()
             matchCount = tree.getRecordsWithState(set([Match_Status.MATCHED]), reportsFolder)
             fieldMismatchCount = tree.getRecordsWithState(set([Match_Status.FIELDS_MISMATCH]), reportsFolder)
             mismatchCount = tree.getRecordsWithState(set([Match_Status.MISSING_DATA]), reportsFolder)
+            endTimer = time.time()
             execTime = "{0:.2f}".format(endTimer - startTimer)
             threadExecSummary = lblTotalValidatedCount.text() + "\n" \
                                 + "#######################################################################################################################" + "\n" \

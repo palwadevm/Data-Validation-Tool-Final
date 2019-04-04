@@ -341,6 +341,10 @@ class DataValidationWindow(QtWidgets.QMainWindow):
 
     # Set Data From File To UI
     def loadDataToUIFromFile(self, windowShown: QtWidgets.QWidget, filePath: str, sectionValue: str = ""):
+        config = configurations.getInstance()
+        for section in config.getSections():
+            if str(section).lower().startswith("query"):
+                config.removeSection(section)
         config = configurations.getInstance(filePath)
         configFile = RawConfigParser()
         configFile.sections()
@@ -350,9 +354,7 @@ class DataValidationWindow(QtWidgets.QMainWindow):
         formLayout = grpQueriesSection.layout()
         bRemoveAllQueries: bool = True
         bRemoveQueriesData = False
-        for section in config.getSections():
-            if str(section).lower().startswith("query"):
-                config.removeSection(section)
+
         # Setup Data
         for section in configFile.sections():
             name = str(section)
