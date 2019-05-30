@@ -38,7 +38,7 @@ def onCurrentIndexChanged(comboBox: QtWidgets.QComboBox, group: QtWidgets.QGroup
 
     # setup Labels & required Objects
     connType = getConnectionType(comboBox.currentText())
-    lastConnections = stempDirPath.strip() + "lastConnected/" + comboBox.currentText() + ".ini"
+	lastConnections = stempDirPath.strip() + "lastConnectData-Validation-Tool-Finaled/" + comboBox.currentText() + ".ini"
 
     print(str(groupName) + "-" + lastConnections + " - " + str(os.path.exists(lastConnections)))
     values = {}

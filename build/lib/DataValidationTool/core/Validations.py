@@ -5,10 +5,10 @@ import os
 import threading
 import time
 
-from PyQt5 import QtWidgets, QtGui
+from PyQt5 import QtGui, QtWidgets
 
 from DataValidationTool.core.configurations.configurations import configurations
-from DataValidationTool.core.databases import Operations, DatabaseTypes
+from DataValidationTool.core.databases import DatabaseTypes, Operations
 from DataValidationTool.core.databases.DatabaseTypes import ConnectionType
 from DataValidationTool.core.structs.DataNode import DataNode
 from DataValidationTool.core.structs.DataQueue import DataSyncQueue
@@ -78,6 +78,7 @@ def readAndPushDataToQueue(sourceType, query, dataKey):
                 dataDict = dict(zip(columns, data))
             # print(line)
             dataQueue.addNodeToQueue(DataNode(keyValue, dataDict, sourceType))
+
     except Exception as e:
         raise Exception("Exception in Thread " + threading.currentThread().name + ".\n" + str(e))
 
