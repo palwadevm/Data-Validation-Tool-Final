@@ -32,6 +32,7 @@ DataValidationTool/core/structs/DataQueue.py
 DataValidationTool/core/structs/DataTreeStruct.py
 DataValidationTool/core/structs/__init__.py
 DataValidationTool/core/structs/eMatchStatus.py
+trash/DataValidationTool.py
 trash/__init__.py
 trash/files.py
 trash/oracleConnector.py

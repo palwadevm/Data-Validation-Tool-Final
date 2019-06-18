@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='DataValidationTool',
-      version='2.2.0',
+      version='2.2.5',
       description='Data Validation Tool For Automated Data Validations',
       long_description=readme(),
       classifiers=[

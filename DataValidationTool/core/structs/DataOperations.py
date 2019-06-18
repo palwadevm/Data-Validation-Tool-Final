@@ -32,7 +32,6 @@ def getRecordsWithStatus(root: DataNode, recordsState: set, fileObj):
 			for keys, values in root.getData().items():
 				for value in values:
 					data = data + ("" if data == "" else ",") + "\"{keys}\" : [{value}]"
-
 			fileObj.write((",\n" if bItemAdded is False else "") + "{\"datakey\" : \"" + root.getKey() + "\", "
 						  + "\"isAvailableInSrc\": " + str(root.isAvailableInSrc).lower() + ", "
 						  + "\"isAvailableInDest\": " + str(root.isAvailableInDest).lower() + ", "
