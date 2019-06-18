@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de27dedb-c831-4b96-960c-4184033e4a9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataValidationTool/core/structs/DataTreeStruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataValidationTool/core/structs/DataTreeStruct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/mako-render" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Mako-1.0.10.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/_ast_util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ast.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/cmd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/codegen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/autohandler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/babelplugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/beaker_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/extract.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/linguaplugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/preprocessors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/pygmentplugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/ext/turbogears.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/filters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/lexer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/lookup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/parsetree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/pygen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/pyparser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/runtime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/mako/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-    </list>
+    <list default="true" id="de27dedb-c831-4b96-960c-4184033e4a9d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataTreeStruct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="129">
+              <caret line="32" column="60" selection-start-line="31" selection-start-column="63" selection-end-line="32" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -118,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataOperations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="247">
+              <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -133,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="488">
+              <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -538,7 +489,7 @@
       <workItem from="1559182894882" duration="7764000" />
       <workItem from="1559278236735" duration="796000" />
       <workItem from="1560834562773" duration="111000" />
-      <workItem from="1560834791617" duration="30000" />
+      <workItem from="1560834791617" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Data Validate">
       <created>1552727550306</created>
@@ -582,18 +533,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552888256560</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Result Changes1">
+      <created>1560835066966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560835066967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12987000" />
+    <option name="totallyTimeSpent" value="13245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5848564" visible="true" weight="0.26626325" />
-      <window_info id="Structure" order="1" sideWeight="0.4151436" side_tool="true" visible="true" weight="0.26626325" />
-      <window_info id="Favorites" order="2" sideWeight="0.26877472" side_tool="true" weight="0.20166163" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5848564" visible="true" weight="0.26626325" />
+      <window_info id="Structure" order="1" sideWeight="0.4151436" side_tool="true" weight="0.26626325" />
+      <window_info id="Favorites" order="2" sideWeight="0.4151436" side_tool="true" visible="true" weight="0.26626325" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49319214" weight="0.46822742" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.744713" weight="0.29765886" />
@@ -601,7 +559,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4954683" visible="true" weight="0.38325283" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4954683" visible="true" weight="0.38325283" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50453174" side_tool="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49848714" weight="0.32850242" />
@@ -997,27 +955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataOperations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/eMatchStatus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,10 +981,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataTreeStruct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="129">
+          <caret line="32" column="60" selection-start-line="31" selection-start-column="63" selection-end-line="32" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataValidationTool/core/structs/DataNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
