@@ -1,5 +1,4 @@
 from DataValidationTool.core.structs.DataNode import DataNode
-from DataValidationTool.core.structs.eMatchStatus import Match_Status
 
 bItemAdded = True
 
@@ -41,8 +40,8 @@ def getRecordsWithStatus(root: DataNode, recordsState: set, fileObj):
 						  + "\"failedColumns\":\"" + str("|".join(root.failedColumns)) + "\""
 						  + "}")
 			RecordsCounter.statusRecordsCount = RecordsCounter.statusRecordsCount + 1
-			if Match_Status.MISSING_DATA != root.getMatchStatus():
-				deleteDataNode(root, root.getKey())
+            # if Match_Status.MISSING_DATA != root.getMatchStatus():
+            # 	deleteDataNode(root, root.getKey())
 			# if Match_Status.MATCHED != root.getMatchStatus():
 			#     print('Key : ' + str(root.getKey()) + ' | Available in Source1 : ' + str(
 			#         root.isAvailableInSrc) + ' | Available in Source 2 : ' + str(root.isAvailableInDest) + ' | ' + str(
