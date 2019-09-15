@@ -1,5 +1,3 @@
-from os import path
-
 from DataValidationTool.core.structs import DataOperations
 from DataValidationTool.core.structs.DataCounts import DataProgressCounts
 from DataValidationTool.core.structs.DataNode import DataNode
@@ -42,9 +40,8 @@ class DataTreeStructure:
 		RecordsCounter.statusRecordsCount = 0
 
 		fileName = folderName + str("_".join([state.name for state in recordsState])) + ".json"
-		fileCounter = 0
-		while (not path.exists(fileName)):
-			fileName = folderName + str("_".join([state.name for state in recordsState])) + str(fileCounter) + ".json"
+        # while (not path.exists(fileName)):
+        # 	fileName = folderName + str("_".join([state.name for state in recordsState]))+ ".json"
 		reportJson = open(fileName, mode='a+', encoding='utf-8')
 		reportJson.write("{\"" + "_".join(rec.name for rec in recordsState) + "\": [")
 		DataOperations.bItemAdded = True
